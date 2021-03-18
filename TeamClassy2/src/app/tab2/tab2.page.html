@@ -1,36 +1,41 @@
-<ion-content fullscreen>
-  <ion-list>
-    <ion-card class="Card">
+<ion-app>
+  <ion-header translucent>
+    <ion-toolbar>
+      <ion-title>Hi, Borislav</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+    <ion-content fullscreen>
+    <ion-list>
+      <ion-card>
+        <ion-list-header>
+          <h2>Humidity</h2>
+        </ion-list-header>
+      
+        <ion-list-header>
+        <h5>Do you want the humidity to be higher or lower?</h5>
+        </ion-list-header>
+      <ion-item>
+        <ion-range min="1000" max="2000" step="100" value="1400" snaps color="danger">
+          <ion-icon slot="start" size="small" color="danger" name="thermometer"></ion-icon>
+          <ion-icon slot="end" color="danger" name="thermometer"></ion-icon>
+        </ion-range>
+      </ion-item>
       <ion-list-header>
-        <h2>Humidity</h2>
+        <h2>Temperature</h2>
       </ion-list-header>
     
       <ion-list-header>
-      <h5>Do you want the humidity to be higher or lower?</h5>
+      <h5>Do you want the Temperature to be higher or lower?</h5>
       </ion-list-header>
-
-    <ion-item>
-      <ion-range  , min="1000" max="2000" step="100" value="1400" snaps color="danger">
-        <ion-icon  , slot="start" size="small" color="danger" name="thermometer"></ion-icon>
-        <ion-icon slot="end" color="danger" name="thermometer"></ion-icon>
-      </ion-range>
-    </ion-item>
-
-    <ion-list-header>
-      <h2>Temperature</h2>
-    </ion-list-header>
-  
-    <ion-list-header>
-    <h5>Do you want the Temperature to be higher or lower?</h5>
-    </ion-list-header>
-
-    <ion-item>
-      <ion-range min="1000" max="2000" step="100" value="1400" snaps color="danger">
-        <ion-icon slot="start" size="small" color="danger" name="thermometer"></ion-icon>
-        <ion-icon slot="end" color="danger" name="thermometer"></ion-icon>
-        <!-- <ion-icon name="thermometer-outline"></ion-icon> -->
-      </ion-range>
-    </ion-item>
-  </ion-card>
-  </ion-list>
-</ion-content>
+      <ion-item>
+        <ion-range min="1000" max="2000" step="100" value="1400" snaps color="danger">
+          <ion-icon slot="start" size="small" color="danger" name="thermometer"></ion-icon>
+          <ion-icon slot="end" color="danger" name="thermometer"></ion-icon>
+          <!-- <ion-icon name="thermometer-outline"></ion-icon> -->
+        </ion-range>
+      </ion-item>
+    </ion-card>
+    </ion-list>
+  </ion-content>
+</ion-app>

@@ -5,8 +5,9 @@
 .statusBar {
     background: #d3cab7;
     border-radius: 10px;
-    flex-wrap: nowrap;  
-    //justify-content: space-between 
+    //flex-wrap: nowrap;  
+    //flex-flow:  nowrap;
+    justify-content: space-between 
 }
 .ion-icon {
     font-size: 64px;
