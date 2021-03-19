@@ -7,7 +7,7 @@ import { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner/ngx';
   templateUrl: './qr-scanner.component.html',
   styleUrls: ['./qr-scanner.component.scss'],
 })
-export class QrScannerComponent implements OnInit { 
+export class QrScannerComponent implements OnInit {
 
 
   constructor() { }
